@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+    <dimen name="fifty_dimen">75dp</dimen>
+    <dimen name="thrity_dimen">45dp</dimen>
+    <dimen name="ten_dimen">15dp</dimen>
+    <dimen name="one_hundred_ten_dimen">165dp</dimen>
+    <dimen name="one_fifty_dimen">225dp</dimen>
+    <dimen name="three_fifty_dimen">450dp</dimen>
+    <dimen name="fourty_dimen">60dp</dimen>
+    <dimen name="sixty_dimen">90dp</dimen>
+    <dimen name="twenty_text_size">30sp</dimen>
+    <dimen name="twenty_two_text_size">33sp</dimen>
+    <dimen name="twenty_five_text_size">37sp</dimen>
+    <dimen name="sixteen_text_size">24sp</dimen>
+    <dimen name="fourtin_text_size">21sp</dimen>
+    <dimen name="minus_twelve_margin">-18dp</dimen>
+    <dimen name="ninty_dimen">135dp</dimen>
+    <dimen name="eighty_dimen">120dp</dimen>
+    <dimen name="top_heading">27sp</dimen>
+    <dimen name="five_dimen">7dp</dimen>
+    <dimen name="dmn_7dp">10dp</dimen>
+    <dimen name="px10">15px</dimen>
+    <dimen name="px5">7px</dimen>
+    <dimen name="px3">4px</dimen>
+    <dimen name="list_divider_hight">0.75dp</dimen>
+
+    <dimen name="margin_150dp">225dp</dimen>
+    <dimen name="margin_140dp">210dp</dimen>
+    <dimen name="margin_120dp">180dp</dimen>
+    <dimen name="margin_110dp">165dp</dimen>
+    <dimen name="margin_100dp">150dp</dimen>
+    <dimen name="margin_45dp">68dp</dimen>
+    <dimen name="minus_50dp">-75dp</dimen>
+    <dimen name="minus_90dp">-135dp</dimen>
+    <dimen name="dimen_180dp">270dp</dimen>
+    <dimen name="twenty_margin">30dp</dimen>
+    <dimen name="margin_23dp">35dp</dimen>
+    <dimen name="margin_eight">12dp</dimen>
+    <dimen name="top_toolbal_size">84dp</dimen>
+
+    <dimen name="dimen_15dp">22dp</dimen>
+    <dimen name="twenty_five_margin">37dp</dimen>
+    <dimen name="fifteen_text_size">22sp</dimen>
+    <dimen name="ten_text_size">15sp</dimen>
+    <dimen name="twelve_text_size">18sp</dimen>
+    <dimen name="login_banner_h">375dp</dimen>
+
+    <dimen name="walk_throuh_img_size">600dp</dimen>
+    <dimen name="mius_35dp">-52dp</dimen>
+    <dimen name="mius_30dp">-45dp</dimen>
+    <dimen name="minus_80dp">-120dp</dimen>
+    <dimen name="margin_200dp">300dp</dimen>
+    <dimen name="margin_220dp">345dp</dimen>
+    <dimen name="margin_230dp">330dp</dimen>
+    <dimen name="margin_430dp">645dp</dimen>
+    <dimen name="margin_160dp">240dp</dimen>
+    <dimen name="minus_45dp">-67dp</dimen>
+    <dimen name="dip20">30dip</dimen>
+    <dimen name="dmn_2dp">3dp</dimen>
+</resources>

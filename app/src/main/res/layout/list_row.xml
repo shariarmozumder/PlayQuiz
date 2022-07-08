@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:quote="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_marginLeft="@dimen/activity_vertical_margin"
+         android:layout_marginRight="@dimen/activity_vertical_margin"
+         android:layout_marginTop="@dimen/five_dimen"
+         android:layout_marginBottom="@dimen/five_dimen"
+         android:elevation="2dp"
+         card_view:cardUseCompatPadding="true"
+         card_view:cardCornerRadius="2dp"
+         card_view:cardElevation="5dp"
+         card_view:cardBackgroundColor="@color/White"
+         android:layout_height="wrap_content">
+
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:gravity="center"
+              android:paddingBottom="@dimen/five_dimen"
+              android:paddingTop="@dimen/five_dimen"
+              android:layout_centerVertical="true"
+              android:layout_height="wrap_content">
+               <RelativeLayout
+                   android:layout_width="@dimen/fifty_dimen"
+                   android:id="@+id/rel"
+                   android:layout_marginLeft="@dimen/five_dimen"
+                   android:background="@drawable/level_no"
+                   android:layout_height="@dimen/fifty_dimen">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sixteen_text_size"
+                        android:text=""
+                        android:layout_centerInParent="true"
+                        android:id="@+id/txtNumber"
+                        android:textColor="@color/textPrimary"/>
+               </RelativeLayout>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=""
+                   android:layout_centerVertical="true"
+                   android:id="@+id/textView1"
+                   android:layout_toEndOf="@+id/rel"
+                   android:layout_toRightOf="@+id/rel"
+                   android:textSize="@dimen/sixteen_text_size"
+                   android:layout_marginLeft="@dimen/twenty_margin"
+                   android:textColor="@color/textPrimary"/>
+          </RelativeLayout>
+     </android.support.v7.widget.CardView>
+</LinearLayout>

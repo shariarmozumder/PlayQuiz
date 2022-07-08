@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:background="@drawable/dialoug_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+       >
+
+        <RelativeLayout
+            android:id="@+id/layout_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblSetting"
+            android:layout_marginTop="@dimen/ten_dimen"
+            android:layout_marginRight="@dimen/ten_dimen"
+          >
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/toggleSoundEffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                app:theme="@style/Color1SwitchStyle"
+                />
+
+            <TextView
+                android:id="@+id/lblSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/sound_effect"
+                android:textStyle="bold"
+                android:textSize="@dimen/sixteen_text_size"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_username"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/ten_dimen"
+           >
+
+           
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/toggleVibration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                app:theme="@style/Color1SwitchStyle"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/lblVibration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/vibration"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textSize="@dimen/sixteen_text_size"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lblSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/setting"
+            android:textColor="@color/app_theme_color"
+            android:textSize="@dimen/twenty_text_size"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/ten_dimen"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/layout_other"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/btnShareMe"
+                android:layout_width="0dp"
+                android:background="@drawable/cyan_btn_bg"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="@color/White"
+                android:text="@string/share_me" />
+
+            <Button
+                android:id="@+id/btnRateMe"
+                android:layout_width="0dp"
+                android:background="@drawable/orange_btn_bg"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="@color/White"
+                android:text="@string/rate_me" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

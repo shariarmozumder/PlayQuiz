@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/sureshkerai/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0/constraint-layout-solver-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90493f2ea15ff3f57416368123e5d4d180e0c6fd">
+        <dex dex="/Users/sureshkerai/Documents/appsell/PlayQuiz/workspace/PlayQuizSell/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0_f95bdb7ed096ed343e947d18217bcd32fa945f3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sureshkerai/.android/build-cache/69acef2a2cf875d603367dca47360e73a2430948/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20672631818754557255886d3feb43e7fe75a66">
+        <dex dex="/Users/sureshkerai/Documents/appsell/PlayQuiz/workspace/PlayQuizSell/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_929aaf694e00fcc6b813914ee2f18b623bd9d01d/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android=  "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+	android:background="@color/bg_color">
+
+    <!--<include layout="@layout/toobar_for_fragment">-->
+
+    <!--</include>-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/top"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/relBack"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_back"
+            android:id="@+id/imgBack"
+            android:clickable="false"
+            android:layout_margin="@dimen/ten_dimen"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_level"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/White"
+        android:id="@+id/txtLevel"
+        android:layout_marginTop="@dimen/fourty_dimen"
+        android:textSize="@dimen/twenty_two_text_size"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/eighty_dimen"
+        android:orientation="vertical">
+        
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:dividerHeight="0dp"
+            android:divider="@null">
+
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ha_play_flContentContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+</RelativeLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingBottom="@dimen/minus_50dp"
+            android:layout_marginTop="@dimen/sixty_dimen"
+            android:background="@drawable/top_corner"
+            android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_160dp"
+        android:id="@+id/relTop"
+        android:paddingLeft="@dimen/five_dimen"
+        android:paddingBottom="@dimen/minus_50dp"
+        android:background="@drawable/score_top2">
+
+        <TextView
+            android:id="@+id/txtLevelHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1 Finished..."
+            android:gravity="center"
+            android:textColor="@color/textPrimary"
+            android:textSize="@dimen/sixteen_text_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ninty_dimen"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_marginBottom="@dimen/ten_dimen"
+        android:id="@+id/linearScore"
+        android:layout_below="@+id/relTop"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/five_dimen"
+            android:background="@drawable/card"
+            android:elevation="3dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20000"
+                android:padding="@dimen/five_dimen"
+                android:id="@+id/txtLevelScore"
+                android:textSize="@dimen/twenty_two_text_size"
+                android:layout_marginTop="@dimen/ten_dimen"
+                android:textColor="@color/textPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_score"
+                android:id="@+id/lblLevelTotalScore"
+                android:padding="@dimen/five_dimen"
+                android:textSize="@dimen/sixteen_text_size"
+                android:textColor="@color/textSecondory"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/five_dimen"
+            android:background="@drawable/card"
+            android:elevation="3dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20000"
+                android:padding="@dimen/five_dimen"
+                android:id="@+id/txtLevelTotalScore"
+                android:textSize="@dimen/twenty_two_text_size"
+                android:layout_marginTop="@dimen/ten_dimen"
+                android:textColor="@color/textPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/five_dimen"
+                android:text="@string/level_score"
+                android:id="@+id/lblLevelScore"
+                android:textSize="@dimen/sixteen_text_size"
+                android:textColor="@color/textSecondory"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_100dp"
+        android:layout_marginTop="@dimen/minus_50dp"
+        android:layout_below="@+id/linearLayout2"
+        android:background="@drawable/score_bottom2">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/five_dimen"
+        android:layout_marginTop="@dimen/five_dimen"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:background="@null"
+            android:textColor="@color/textPrimary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/home" />
+
+        <Button
+            android:id="@+id/btnPlayAgain"
+            android:layout_width="0dp"
+            android:background="@null"
+            android:textColor="@color/textPrimary"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/play_again" />
+    </LinearLayout>
+    </RelativeLayout>
+
+     <TextView
+        android:id="@+id/txtShareScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Share Score"
+         android:textSize="@dimen/sixteen_text_size"
+         android:layout_below="@+id/linearScore"
+        android:textColor="@color/textSecondory"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtShareScore"
+        android:layout_marginBottom="@dimen/twenty_margin"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fb"
+            android:background="@drawable/ic_fb"
+            />
+
+        <ImageButton
+            android:id="@+id/btnGooglePlus"
+            android:layout_width="wrap_content"
+            android:text="gp"
+            android:layout_marginTop="@dimen/ten_dimen"
+            android:layout_marginLeft="@dimen/ten_dimen"
+            android:background="@drawable/ic_gplus"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:text="share"
+            android:layout_marginLeft="@dimen/ten_dimen"
+            android:background="@drawable/ic_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="@dimen/margin_150dp"
+            android:layout_height="@dimen/margin_150dp"
+            android:background="@drawable/score_status"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                android:text="Grrat Job!!"
+                android:gravity="center"
+                android:id="@+id/txtStatus"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

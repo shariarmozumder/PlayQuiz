@@ -1,0 +1,66 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fifty_dimen">50dp</dimen>
+    <dimen name="thrity_dimen">30dp</dimen>
+    <dimen name="ten_dimen">10dp</dimen>
+    <dimen name="one_hundred_ten_dimen">110dp</dimen>
+    <dimen name="one_fifty_dimen">150dp</dimen>
+    <dimen name="three_fifty_dimen">300dp</dimen>
+    <dimen name="fourty_dimen">40dp</dimen>
+    <dimen name="sixty_dimen">60dp</dimen>
+    <dimen name="twenty_text_size">20sp</dimen>
+    <dimen name="twenty_two_text_size">22sp</dimen>
+    <dimen name="twenty_five_text_size">25sp</dimen>
+    <dimen name="sixteen_text_size">16sp</dimen>
+    <dimen name="fourtin_text_size">14sp</dimen>
+    <dimen name="minus_twelve_margin">-12dp</dimen>
+    <dimen name="ninty_dimen">90dp</dimen>
+    <dimen name="eighty_dimen">80dp</dimen>
+    <dimen name="top_heading">18sp</dimen>
+    <dimen name="five_dimen">5dp</dimen>
+    <dimen name="dmn_7dp">7dp</dimen>
+    <dimen name="px10">10px</dimen>
+    <dimen name="px5">5px</dimen>
+    <dimen name="px3">3px</dimen>
+    <dimen name="list_divider_hight">0.5dp</dimen>
+
+    <dimen name="margin_150dp">150dp</dimen>
+    <dimen name="margin_140dp">140dp</dimen>
+    <dimen name="margin_120dp">120dp</dimen>
+    <dimen name="margin_100dp">100dp</dimen>
+    <dimen name="margin_45dp">45dp</dimen>
+    <dimen name="margin_110dp">110dp</dimen>
+    <dimen name="minus_50dp">-50dp</dimen>
+    <dimen name="minus_90dp">-90dp</dimen>
+    <dimen name="dimen_180dp">180dp</dimen>
+    <dimen name="twenty_margin">20dp</dimen>
+    <dimen name="margin_23dp">23dp</dimen>
+    <dimen name="margin_eight">8dp</dimen>
+    <dimen name="top_toolbal_size">56dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="twenty_five_margin">25dp</dimen>
+    <dimen name="fifteen_text_size">15sp</dimen>
+    <dimen name="ten_text_size">10sp</dimen>
+    <dimen name="twelve_text_size">12sp</dimen>
+    <dimen name="login_banner_h">250dp</dimen>
+    <dimen name="walk_throuh_img_size">400dp</dimen>
+    <dimen name="mius_35dp">-35dp</dimen>
+    <dimen name="mius_30dp">-30dp</dimen>
+    <dimen name="minus_80dp">-80dp</dimen>
+    <dimen name="margin_200dp">200dp</dimen>
+    <dimen name="margin_220dp">220dp</dimen>
+    <dimen name="margin_230dp">230dp</dimen>
+    <dimen name="margin_430dp">430dp</dimen>
+    <dimen name="margin_160dp">160dp</dimen>
+    <dimen name="dip20">20dip</dimen>
+    <dimen name="minus_45dp">-45dp</dimen>
+
+    <dimen name="dmn_2dp">2dp</dimen>
+
+</resources>

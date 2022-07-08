@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="textjustify-android-2.1.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/be0d82656a8a264cf6c9ec7e8dbd1e08911b7199/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/be0d82656a8a264cf6c9ec7e8dbd1e08911b7199/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bluejamesbond/textjustify-android/2.1.1/22992a61d0157532c2347a32d8d2abede80819b5/textjustify-android-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

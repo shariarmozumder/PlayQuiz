@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#FFFFFF</color>
+    <color name="list_divider_color">#87d9ff</color>
+    <color name="app_theme_color">#7045dc</color>
+    <color name="app_background_color_1">#5134bf</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="app_background_color_1_button_End_Color">#e4f4f7</color>
+    <color name="orange">#09b2d1</color>
+    <color name="text_color">#757575</color>
+    <color name="trasparent_green">#40006600</color>
+    <color name="green">#902ecc71</color>
+    <color name="red">#90e74c3c</color>
+    <color name="transparent_red">#40ff0000</color>
+    <color name="textPrimary">#2c3e50</color>
+    <color name="textSecondory">#34495e</color>
+    <color name="colorFB">#3b5998</color>
+    <color name="colorGP">#dd4b39</color>
+    <color name="dark_grey">#4e4d4d</color>
+    <color name="bg_color">#ecf0f1 </color>
+</resources>
